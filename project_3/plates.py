@@ -25,8 +25,8 @@ def is_valid(s):
                 return False
             break
 
-        return True
+    return True
 
 
-
-main()
+if __name__ == "__main__":
+    main()
