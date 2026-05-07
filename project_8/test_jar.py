@@ -2,8 +2,8 @@ import pytest
 from jar import Jar
 
 def test_init():
-    jar = Jar()
-    assert jar.capacity == 12
+    jar = Jar(11)
+    assert jar.capacity == 11
     assert jar.size == 0
 
 
